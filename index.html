@@ -133,8 +133,8 @@ section{position:relative;z-index:5;padding:6rem 2.5rem;}
 
 /* Projects */
 .proj-grid{display:grid;gap:1.8rem;}
-.proj{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2rem;transition:all .4s;position:relative;overflow:hidden;}
-.proj::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--accent-glow),transparent 60%);opacity:0;transition:opacity .4s;pointer-events: none;}
+.proj{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2rem;transition:all .4s;position:relative;}
+.proj::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,var(--accent-glow),transparent 60%);opacity:0;transition:opacity .4s;pointer-events: none;;border-radius:16px;}
 .proj:hover{border-color:rgba(124,109,250,.3);transform:translateY(-3px);box-shadow:0 20px 50px rgba(124,109,250,.06);}
 .proj:hover::before{opacity:1;}
 .proj>*{position:relative;z-index:2;}
